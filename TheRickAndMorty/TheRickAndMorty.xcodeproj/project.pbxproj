@@ -35,6 +35,7 @@
 		842F682D2A16B5BE00596166 /* RMCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F682C2A16B5BE00596166 /* RMCharacterDetailViewController.swift */; };
 		842F682F2A17678A00596166 /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F682E2A17678A00596166 /* RMCharacterDetailViewViewModel.swift */; };
 		842F68312A17820A00596166 /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F68302A17820A00596166 /* RMFooterLoadingCollectionReusableView.swift */; };
+		843BD70E2A1BE9EF002A5FDA /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BD70D2A1BE9EF002A5FDA /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		842F682C2A16B5BE00596166 /* RMCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewController.swift; sourceTree = "<group>"; };
 		842F682E2A17678A00596166 /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		842F68302A17820A00596166 /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		843BD70D2A1BE9EF002A5FDA /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		842F67FA2A140D6500596166 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				843BD70D2A1BE9EF002A5FDA /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				842F68012A140E7400596166 /* RMLocation.swift in Sources */,
 				842F68142A14C6CE00596166 /* RMEndpoint.swift in Sources */,
 				842F68032A140E8200596166 /* RMCharacter.swift in Sources */,
+				843BD70E2A1BE9EF002A5FDA /* RMImageLoader.swift in Sources */,
 				842F682A2A160C9100596166 /* RMCharacterCollectionViewCellViewModel.swift in Sources */,
 				842F68122A14C50200596166 /* RMRequest.swift in Sources */,
 				842F68222A15438B00596166 /* RMCharacterListViewViewModel.swift in Sources */,

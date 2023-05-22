@@ -74,6 +74,7 @@ final class RMCharacterListView: UIView {
 }
 
 extension RMCharacterListView: RMCharacterListViewViewModelDelegate {
+    
     func didSelectCharacter(_ character: RMCharacter) {
         delegate?.rmCharacterListView(self, didSelectCharacter: character)
     }
@@ -82,10 +83,14 @@ extension RMCharacterListView: RMCharacterListViewViewModelDelegate {
         self.spinner.stopAnimating()
         self.collectionView.isHidden = false
         self.collectionView.reloadData()
-        UIView.animate(withDuration: 0.5) {
-            self.collectionView.alpha = 1
-        }
-        
+        UIView.animate(withDuration: 0.5) { self.collectionView.alpha = 1 }
     }
+    
+    func didLoadMoreCharacters(with newIndexPath: [IndexPath]) {
+        collectionView.performBatchUpdates {
+            self.collectionView.insertItems(at: newIndexPath)
+        }
+    }
+    
     
 }
